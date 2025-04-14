@@ -928,7 +928,7 @@ fieldset {
     justify-content: center;
 }
 
-.Skills .container-skill .mainSkill .front , .back , .datasci, .tools{
+.Skills .container-skill .mainSkill .front , .back , .oscloud, .tools{
     width: 100%;
     max-width: 500px;
     background: rgb(255, 255, 255);
@@ -937,7 +937,7 @@ fieldset {
     padding: 18px 36px;
 }
 
-.Skills .container-skill .mainSkill .front h2, .back h2, .datasci h2, .tools h2{
+.Skills .container-skill .mainSkill .front h2, .back h2, .oscloud h2, .tools h2{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0%;
@@ -957,7 +957,7 @@ fieldset {
     margin-bottom: 20px;
 }
 
-.Skills .container-skill .mainSkill .front .frontSkill, .back .backSkill, .datasci .datasciSkill, .tools .toolsSkill{
+.Skills .container-skill .mainSkill .front .frontSkill, .back .backSkill, .oscloud .oscloudskill, .tools .toolsSkill{
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
@@ -981,7 +981,7 @@ fieldset {
     height: 30px;
 }
 
-.Skills .container-skill .mainSkill .datasci .box img{
+.Skills .container-skill .mainSkill .oscloud .box img{
     width: 30px;
     height: 30px;
 }
@@ -1037,7 +1037,7 @@ fieldset {
 }
 
 
-.Skills .container-skill .mainSkill .front .frontSkill:hover, .back .backSkill:hover, .datasci .datasciSkill:hover, .tools .toolsSkill:hover{
+.Skills .container-skill .mainSkill .front .frontSkill:hover, .back .backSkill:hover, .oscloud .oscloudskill:hover, .tools .toolsSkill:hover{
     transform: translateY(-7px);
     transition: all 0.3s ease;
 }
